@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A63A2807-7540-7F46-6EC4-65AE1399A205" name="User">
+<createdBy>Naufal</createdBy>
+<createdTime>2024-05-07 13:38:01 UTC</createdTime>
+<generatorID>5544BEF7-56B8-22F9-F4BF-CE9D56FCDDF0</generatorID>
+<ownerDesignName>Relational Database</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_user" id="62455FE9-E27C-246C-01D4-C082790A4F52">
+<createdBy>Naufal</createdBy>
+<createdTime>2024-05-07 13:38:01 UTC</createdTime>
+<generatorID>5FFA769F-43DE-9CB0-C525-F478E2E0485C</generatorID>
+<ownerDesignName>Relational Database</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="user_name" id="616E02DA-DAF4-7CDE-109A-4786C1C80136">
+<createdBy>Naufal</createdBy>
+<createdTime>2024-05-07 13:38:01 UTC</createdTime>
+<generatorID>8F7E7328-6CDB-6F2A-4271-68FC71AB461E</generatorID>
+<ownerDesignName>Relational Database</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="user_email" id="AB04CE4D-7515-BD05-EF18-91976D6C7308">
+<createdBy>Naufal</createdBy>
+<createdTime>2024-05-07 13:38:01 UTC</createdTime>
+<generatorID>3D1DF674-C3A1-3534-027A-EB8BB2DFD9DD</generatorID>
+<ownerDesignName>Relational Database</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="user_password" id="A933CBB5-DB0C-8F60-65BC-36FC34EB8A41">
+<createdBy>Naufal</createdBy>
+<createdTime>2024-05-07 13:38:01 UTC</createdTime>
+<generatorID>90883779-FA43-36F3-6525-A12DA6A4401B</generatorID>
+<ownerDesignName>Relational Database</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6ED5AE39-4938-AE05-CE8C-7E2DEE481BDB" name="User_PK">
+<createdBy>Naufal</createdBy>
+<createdTime>2024-05-07 13:38:01 UTC</createdTime>
+<generatorID>D4CF5F23-A0BE-B99A-3095-40615AAF1386</generatorID>
+<ownerDesignName>Relational Database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="62455FE9-E27C-246C-01D4-C082790A4F52"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

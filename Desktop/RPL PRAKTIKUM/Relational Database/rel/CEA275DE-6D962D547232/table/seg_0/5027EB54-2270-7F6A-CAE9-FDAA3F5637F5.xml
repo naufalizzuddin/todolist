@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5027EB54-2270-7F6A-CAE9-FDAA3F5637F5" name="Mengelola">
+<createdBy>Naufal</createdBy>
+<createdTime>2024-05-07 13:38:01 UTC</createdTime>
+<ownerDesignName>Relational Database</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="User_id_user" id="FCF0E616-A39D-4101-A24C-47BC4DE9994A">
+<createdBy>Naufal</createdBy>
+<createdTime>2024-05-07 13:38:01 UTC</createdTime>
+<ownerDesignName>Relational Database</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="98043D5C-D9A6-30A0-85C2-1E6C329EB977" referredColumn="62455FE9-E27C-246C-01D4-C082790A4F52"/>
+</associations>
+</Column>
+<Column name="Catatan_id_catatan" id="286AF5E1-66BE-1923-66A6-765299CE67AC">
+<createdBy>Naufal</createdBy>
+<createdTime>2024-05-07 13:38:01 UTC</createdTime>
+<ownerDesignName>Relational Database</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0B8D8641-0A1A-9705-B348-EA6E66D52823" referredColumn="CEE2D459-5097-98CF-0CBF-EE6A80C164A1"/>
+</associations>
+</Column>
+<Column name="tgl_kelola" id="C0623A90-7AFD-7352-A53F-A0ADEDE1CA4B">
+<createdBy>Naufal</createdBy>
+<createdTime>2024-05-07 13:38:01 UTC</createdTime>
+<generatorID>56ADB2B6-A253-E5C5-B435-F3BB400E71CB</generatorID>
+<ownerDesignName>Relational Database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+<Column name="id_kelola" id="2657DFDA-B4E5-9D7F-52C8-F8DCFCE9B1AC">
+<createdBy>Naufal</createdBy>
+<createdTime>2024-05-07 13:38:01 UTC</createdTime>
+<generatorID>C49A2786-41AF-67B6-D509-E51F8807DF7E</generatorID>
+<ownerDesignName>Relational Database</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="144C0148-FDAA-ECB6-7CB9-7D91E0CD6BDC" name="Mengelola_PK">
+<createdBy>Naufal</createdBy>
+<createdTime>2024-05-07 13:38:01 UTC</createdTime>
+<ownerDesignName>Relational Database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FCF0E616-A39D-4101-A24C-47BC4DE9994A"/>
+<colUsage columnID="286AF5E1-66BE-1923-66A6-765299CE67AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="35396D66-5229-1A9B-C9EE-88953FF2F10F" name="Mengelola_User_FK">
+<createdBy>Naufal</createdBy>
+<createdTime>2024-05-07 13:38:01 UTC</createdTime>
+<generatorID>2471FA17-30F7-E199-742B-8328A1714791</generatorID>
+<ownerDesignName>Relational Database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FCF0E616-A39D-4101-A24C-47BC4DE9994A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9EE0C2CE-2297-7E43-B220-828747A97972" name="Mengelola_Catatan_FK">
+<createdBy>Naufal</createdBy>
+<createdTime>2024-05-07 13:38:01 UTC</createdTime>
+<generatorID>2471FA17-30F7-E199-742B-8328A1714791</generatorID>
+<ownerDesignName>Relational Database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="286AF5E1-66BE-1923-66A6-765299CE67AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

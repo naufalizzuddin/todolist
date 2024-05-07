@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Mengelola" directorySegmentName="seg_0" id="2471FA17-30F7-E199-742B-8328A1714791">
+<createdBy>Naufal</createdBy>
+<createdTime>2024-05-07 13:36:06 UTC</createdTime>
+<ownerDesignName>Relational Database</ownerDesignName>
+<engineerTo>
+<item key="CEA275DE-FEEB-7508-0E5A-6D962D547232" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>5544BEF7-56B8-22F9-F4BF-CE9D56FCDDF0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E53CA8DF-7449-5D63-A1BB-AF8F0D144FD9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="tgl_kelola" id="56ADB2B6-A253-E5C5-B435-F3BB400E71CB">
+<createdBy>Naufal</createdBy>
+<createdTime>2024-05-07 13:36:35 UTC</createdTime>
+<ownerDesignName>Relational Database</ownerDesignName>
+<engineerTo>
+<item key="CEA275DE-FEEB-7508-0E5A-6D962D547232" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="id_kelola" id="C49A2786-41AF-67B6-D509-E51F8807DF7E">
+<createdBy>Naufal</createdBy>
+<createdTime>2024-05-07 13:36:43 UTC</createdTime>
+<ownerDesignName>Relational Database</ownerDesignName>
+<engineerTo>
+<item key="CEA275DE-FEEB-7508-0E5A-6D962D547232" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>
