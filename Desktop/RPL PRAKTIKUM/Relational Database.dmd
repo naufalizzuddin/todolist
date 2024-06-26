@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Relational Database" id="F460D27B-7AE6-9FA0-8B6E-B2B29A17CFEF" version="3.5">
-<createdBy>Naufal</createdBy>
-<createdTime>2024-05-07 13:32:01 UTC</createdTime>
-<ownerDesignName>Relational Database</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>F460D27B-7AE6-9FA0-8B6E-B2B29A17CFEF</designId>
-</OSDM_Design>
